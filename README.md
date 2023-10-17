@@ -2,7 +2,7 @@
 
 A Japanese Kanji Flashcard App built using Python and Langchain, enhanced with the intelligence of GPT-4.
 
-![Kanji Flashcard App GPT-4 Demo](/images/kanji-gpt4/kanji-gpt4.gif)
+![Kanji Flashcard App GPT-4 Demo](kanji-gpt4.gif)
 
 For a detailed walkthrough of how this app was built, check out the accompanying blog post: [https://adilmoujahid.com/posts/2023/10/kanji-gpt4/](https://adilmoujahid.com/posts/2023/10/kanji-gpt4/).
 
