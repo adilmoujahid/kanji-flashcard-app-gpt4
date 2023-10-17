@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+#word {
+  font-size: 3em;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+input#description {
+  width: 300px;  /* or use percentage for responsiveness e.g., 80% */
+  height: 30px; 
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+button#fetchButton {
+  width: 150px; 
+  height: 40px; 
+  font-size: 1em; 
+}
+
+.loading {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

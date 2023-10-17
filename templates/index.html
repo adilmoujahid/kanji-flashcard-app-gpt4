@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Kanji Study App</title>
+</head>
+<body>
+    <div id="loading" class="loading" style="display:none;">
+        <div class="spinner"></div>
+        Loading...
+    </div>
+    <div id="app">
+        <input type="text" id="description" placeholder="Kanji description"/>
+        <button id="fetchButton" onclick="fetchWord()">Fetch Kanji</button>
+        <div id="word">-</div>
+        <div id="options">
+            <button>-</button>
+            <button>-</button>
+            <button>-</button>
+            <button>-</button>
+        </div>
+        <div id="feedback">
+            <p id="english"></p>
+            <p id="sentenceJP"></p>
+            <p id="sentenceEN"></p>
+        </div>
+        <button id="next" onclick="nextWord()">Next</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
