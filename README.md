@@ -2,7 +2,7 @@
 
 A Japanese Kanji Flashcard App built using Python and Langchain, enhanced with the intelligence of GPT-4.
 
-<div style="display:block;margin:auto;height:70%;width:70%">
+<div style="display:block;margin:auto;height:50%;width:50%">
   <img src="kanji-gpt4.gif">
 </div>
 
